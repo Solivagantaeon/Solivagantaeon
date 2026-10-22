@@ -1,22 +1,36 @@
-# Hi, I'm Antek 👋
+**Junior Cybersecurity Engineer** · 3rd-year Cybersecurity Engineering student · CompTIA Security+
 
-IT / Cybersecurity student focused on **SOC operations, detection engineering and security automation**.
+I'm after the whole field: how systems are built, how they get broken into and how all of that gets caught. Right now I'm deep in the defensive end, building a SOC lab from scratch. Breaking into it properly is next.
 
-## 🔭 Currently working on
-**SOC Automation Lab**: a team project that automates alert triage to reduce alert fatigue
-(Wazuh + Suricata → Shuffle SOAR → Cortex + MISP enrichment → TheHive case management).
-- Built and run the whole home lab on Proxmox with a segmented network (OPNsense, VLANs, WireGuard)
-- Deployed Sysmon on Windows hosts and centralized collection with Wazuh
-- Wrote noise-reduction rules and tested web-attack detection (SQLi, XSS, FIM)
+#### Currently building: SOC Automation Lab
 
-## 🛠️ Skills
-**SIEM / Detection:** Wazuh, Suricata, Sysmon, Splunk (basics)
-**SOAR / TI:** Shuffle, TheHive, Cortex, MISP
-**Infrastructure:** Proxmox VE, OPNsense, Active Directory, Linux (Ubuntu), Docker
-**Other:** Git/GitHub workflow, Markdown documentation
+A university team project about alert fatigue. The target is to take ~1,000 raw alerts, deduplicate, group and enrich them, and leave an analyst with ~10 incidents that actually need a human.
 
-## 📌 Projects
-- [soc-automation-lab](https://github.com/Solivagantaeon/soc-automation-lab): SOC alert triage automation
+```text
+Wazuh + Suricata  →  Shuffle (SOAR)  →  Cortex + MISP  →  scoring & dedup  →  TheHive
+```
 
-## 📫 Contact
-[LinkedIn](https://www.linkedin.com/in/antonich2508/)
+I built the lab and keep it running:
+
+- **Network:** a Proxmox host behind OPNsense, with separate VLANs for victims, SOC tooling and the attacker box, and WireGuard access for the team.
+- **Telemetry:** Wazuh agents on an AD domain controller, Windows workstations, a Linux web server and the firewall itself. Sysmon on every Windows host, Suricata alerts going through the same pipeline.
+- **Detection testing:** a deliberately vulnerable web app that we attack from Kali to see what gets caught. First finding: a webshell run from the upload folder raised no alert at all. Custom rule in progress.
+
+Installing the tools was the easy part. The real work was figuring out why one workstation had never been sending its Sysmon logs, and why two others live six hours in the future.
+
+→ [soc-automation-lab](https://github.com/ORG-OR-USER/soc-automation-lab)
+
+#### Toolbox
+
+| Area | Tools |
+|---|---|
+| Detection & logging | Wazuh · Suricata · Sysmon |
+| Response & threat intel | Shuffle · TheHive · Cortex · MISP |
+| Infrastructure | Proxmox VE · OPNsense · Active Directory · Linux · Docker |
+
+#### Off-screen
+
+Urban exploration: abandoned factories, old hospitals, a headlamp and a camera. I call it physical recon.
+
+<sub>Find me on [LinkedIn](https://www.linkedin.com/in/antonich2508/). Always happy to talk detection engineering, home labs or a good abandoned building.</sub>
+
