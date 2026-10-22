@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi, I'm Antek 👋
 
-<!--
-**Solivagantaeon/Solivagantaeon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+IT / Cybersecurity student focused on **SOC operations, detection engineering and security automation**.
 
-Here are some ideas to get you started:
+## 🔭 Currently working on
+**SOC Automation Lab**: a team project that automates alert triage to reduce alert fatigue
+(Wazuh + Suricata → Shuffle SOAR → Cortex + MISP enrichment → TheHive case management).
+- Built and run the whole home lab on Proxmox with a segmented network (OPNsense, VLANs, WireGuard)
+- Deployed Sysmon on Windows hosts and centralized collection with Wazuh
+- Wrote noise-reduction rules and tested web-attack detection (SQLi, XSS, FIM)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Skills
+**SIEM / Detection:** Wazuh, Suricata, Sysmon, Splunk (basics)
+**SOAR / TI:** Shuffle, TheHive, Cortex, MISP
+**Infrastructure:** Proxmox VE, OPNsense, Active Directory, Linux (Ubuntu), Docker
+**Other:** Git/GitHub workflow, Markdown documentation
+
+## 📌 Projects
+- [soc-automation-lab](https://github.com/Solivagantaeon/soc-automation-lab): SOC alert triage automation
+
+## 📫 Contact
+[LinkedIn](https://www.linkedin.com/in/antonich2508/)
