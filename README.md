@@ -27,14 +27,6 @@ I built the lab and keep it running:
 
 → [soc-automation-lab](https://github.com/ORG-OR-USER/soc-automation-lab)
 
-#### Toolbox
-
-| Area | Tools |
-|---|---|
-| Detection & logging | ![Wazuh](https://img.shields.io/badge/Wazuh-3595F3?style=flat-square) ![Suricata](https://img.shields.io/badge/Suricata-EF7D00?style=flat-square) ![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=flat-square) |
-| Response & threat intel | ![Shuffle](https://img.shields.io/badge/Shuffle-FF8544?style=flat-square) ![TheHive](https://img.shields.io/badge/TheHive-F3C500?style=flat-square) ![Cortex](https://img.shields.io/badge/Cortex-2E3A4D?style=flat-square) ![MISP](https://img.shields.io/badge/MISP-1A4C7A?style=flat-square) |
-| Infrastructure | ![Proxmox](https://img.shields.io/badge/Proxmox%20VE-E57000?style=flat-square&logo=proxmox&logoColor=white) ![OPNsense](https://img.shields.io/badge/OPNsense-E44A20?style=flat-square&logo=opnsense&logoColor=white) ![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=FCC624) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| Offense | ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white) |
 
 #### Off-screen
 Urbex: abandoned factories and old hospitals, but also tunnels, rooftops and the kind of infrastructure most people only see from the outside.
